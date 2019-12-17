@@ -1,6 +1,8 @@
 # EN-Fon-Translator
 
 By [Kevin Degila](https://www.kevindegila.com/)
+
+
 [TakwimuLab](https://takwimulab.gitlab.io/)
 
 ## Usage
@@ -26,3 +28,9 @@ And Execute this command to start making predictions
 ```sh
 python3 -m joeynmt translate "config.yaml" 
 ```
+
+### Credits
+
+Thanks to the [Masakhane](https://github.com/masakhane-io/masakhane) project for providing everything needed to start this project: data, code and guidance.
+
+Thanks to [JoeyNMT](https://github.com/joeynmt/joeynmt) used for training and inference
