@@ -7,7 +7,12 @@ By [Kevin Degila](https://www.kevindegila.com/)
 
 ## Usage
 
-Clone this repo
+Clone this repo and this one : https://github.com/joeynmt/joeynmt
+
+In the joeynmt repo execute:
+```sh
+pip install .
+```
 
 Create a Conda virtual environment if you have Anaconda or Miniconda installed
 ```sh
@@ -17,6 +22,7 @@ Activate the environment:
 ```sh
 conda activate translator
 ```
+In this repo,
 Install the required packages:
 ```sh
 pip install -r requirements.txt
