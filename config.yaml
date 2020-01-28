@@ -18,7 +18,7 @@ testing:
     alpha: 1.0
 
 training:
-    #load_model: "enfon_transformer/1.ckpt" # if uncommented, load a pre-trained model from this checkpoint
+    load_model: "enfon_transformer/best.ckpt" # if uncommented, load a pre-trained model from this checkpoint
     random_seed: 42
     optimizer: "adam"
     normalization: "tokens"
