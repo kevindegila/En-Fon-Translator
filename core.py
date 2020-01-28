@@ -10,6 +10,7 @@ from joeynmt.vocabulary import build_vocab
 from joeynmt.model import build_model
 from joeynmt.prediction import validate_on_data
 
+
 def translate(message_text, model, src_vocab, trg_vocab, preprocess, postprocess,
               logger, beam_size, beam_alpha, level, lowercase,
               max_output_length, use_cuda):
@@ -148,12 +149,3 @@ def load_model(model_dir, bpe_src_code=None, tokenize=None):
     print("Joey NMT model loaded successfully.")
     return conf
 
-global confo
-confo = load_model(".")
-
-
-def main(text):
-    answer = translate(text, **confo)
-    print(answer)
-
-main("My name is Jamill .")
